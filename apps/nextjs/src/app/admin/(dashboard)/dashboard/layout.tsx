@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getCurrentUser } from "@saasfly/auth";
 
 import { SiteFooter } from "~/components/site-footer";
-import { i18n, type Locale } from "~/config/i18n-config";
+import { type Locale } from "~/config/i18n-config";
 import { getDictionary } from "~/lib/get-dictionary";
 
 interface DashboardLayoutProps {
@@ -13,9 +13,7 @@ interface DashboardLayoutProps {
   };
 }
 
-export function generateStaticParams() {
-  return i18n.locales.map((locale) => ({ lang: locale }));
-}
+export const dynamic = "force-dynamic";
 
 export default async function DashboardLayout({
   children,
