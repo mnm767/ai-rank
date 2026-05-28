@@ -1,5 +1,9 @@
 {
   "github": {
     "silent": true
-  }
+  },
+  "buildCommand": "cd ../.. && bun install && cd packages/db && bunx prisma generate && cd ../../apps/nextjs && bunx contentlayer2 build && bunx next build",
+  "outputDirectory": "apps/nextjs/.next",
+  "installCommand": "echo 'deps installed by buildCommand'",
+  "framework": "nextjs"
 }
