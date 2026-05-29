@@ -36,26 +36,31 @@ export function generateStaticParams() {
 }
 
 export const metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [
-    "Next.js",
-    "Shadcn ui",
-    "Sass",
-    "Fast ",
-    "Simple ",
-    "Easy",
-    "Cloud Native",
+    "AI automation",
+    "business automation UAE",
+    "HR support AI",
+    "document automation",
+    "marketing AI",
+    "sales AI agents",
+    "customer support AI",
+    "AI rank",
+    "أتمتة الأعمال",
+    "الذكاء الاصطناعي",
   ],
-  authors: [
-    {
-      name: "saasfly",
-    },
-  ],
-  creator: "Saasfly",
+  authors: [{ name: "AI-Rank" }],
+  creator: "AI-Rank",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -63,12 +68,25 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: "AI-Rank" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
   },
   icons: {
     icon: "/logo.svg",
     apple: "/apple-touch-icon.png",
   },
-  metadataBase: new URL("https://show.saasfly.io/"),
+  alternates: {
+    canonical: siteConfig.url,
+    languages: {
+      "en": `${siteConfig.url}/en`,
+      "ar": `${siteConfig.url}/ar`,
+    },
+  },
 };
 
 async function AuthProvider({ children }: { children: React.ReactNode }) {
@@ -81,12 +99,16 @@ async function AuthProvider({ children }: { children: React.ReactNode }) {
 
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params?: { lang?: string };
 }) {
+  const lang = params?.lang ?? "en";
+  const dir = lang === "ar" ? "rtl" : "ltr";
   return (
     <AuthProvider>
-      <html lang="en" suppressHydrationWarning>
+      <html lang={lang} dir={dir} suppressHydrationWarning>
         <head />
         <body
           className={cn(
