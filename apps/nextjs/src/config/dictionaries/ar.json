@@ -1,0 +1,127 @@
+{
+  "price": {
+    "title": "أسعار رخيصة وشفافة!",
+    "pricing": "الأسعار",
+    "slogan": "ابدأ بسرعة كاملة!",
+    "monthly_bill": "الفوترة الشهرية",
+    "annual_bill": "الفوترة السنوية",
+    "annual_info": "سيتم الخصم عند الاشتراك السنوي",
+    "monthly_info": "عند الخصم الشهري",
+    "mo": "/شهر",
+    "contact": "للتواصل مع فريق الدعم.",
+    "contact_2": "يمكنك اختبار الاشتراكات ولن يتم تحصيل أي رسوم.",
+    "faq": "الأسئلة الشائعة",
+    "faq_detail": "استكشف الأسئلة الشائعة للعثور على إجابات سريعة. إذا كنت بحاجة إلى مزيد من المساعدة، لا تتردد في التواصل معنا.",
+    "signup": "إنشاء حساب",
+    "upgrade": "ترقية",
+    "manage_subscription": "إدارة الاشتراك",
+    "go_to_dashboard": "الذهاب إلى لوحة التحكم",
+    "": ""
+  },
+  "marketing": {
+    "introducing": "تقديم AI-Rank",
+    "title": "أطلق تطبيقاتك للعالم بسهولة مع ",
+    "sub_title": "قالب Next.js سهل الاستخدام وعلى مستوى المؤسسات. الحل الشامل لبناء خدمات SaaS.",
+    "get_started": "ابدأ الآن",
+    "view_on_github": "عرض على GitHub",
+    "explore_product": "استكشف المنتج",
+    "features": "المميزات",
+    "sub_features": "سحابي بالكامل: تبسيط التكنولوجيا وتقليل التكاليف للشركات الناشئة.",
+    "k8s_features": "تطوير سريع وبسيط",
+    "devops_features": "نشر تطبيقات سهل",
+    "price_features": "كفاءة اقتصادية لبيئات الإنتاج.",
+    "main_nav_features": "المميزات",
+    "main_nav_pricing": "الأسعار",
+    "main_nav_products": "المنتجات",
+    "main_nav_blog": "المدونة",
+    "main_nav_documentation": "التوثيق",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "": "",
+    "contributors": {
+      "contributors_desc": "مساهم جعلوا AI-Rank أقوى",
+      "developers_first": "تساعد أكثر من ",
+      "developers_second": " مطور"
+    },
+    "right_side": {
+      "deploy_on_vercel_title": "النشر على Vercel",
+      "deploy_on_vercel_desc": "ابدأ في ثوانٍ، وشاهد النتائج فوراً.",
+      "ship_on_cloudflare_title": "النشر على Cloudflare",
+      "ship_on_cloudflare_desc": "نمّ أعمالك بمنصتنا المدعومة بـ Cloudflare.",
+      "showcase_title": "أفضل الممارسات والعروض",
+      "showcase_desc": "اطلع على ما يبنيه الناس وتحدث معهم. واعرض تطبيقاتك على العالم."
+    },
+    "features_grid": {
+      "monorepo_title": "Monorepo",
+      "monorepo_desc": "إدارة مشاريع متعددة بطريقة موحدة لتسهيل مشاركة الكود وتعزيز التعاون.",
+      "i18n_title": "تعدد اللغات",
+      "i18n_desc": "دعم متعدد اللغات بسهولة. امنح مستخدميك تجربة أفضل ووسّع أعمالك عالمياً.",
+      "payments_title": "المدفوعات العالمية",
+      "payments_desc": "وسّع أعمالك عالمياً مع منصة الدفع الآمنة والمريحة والفعالة.",
+      "nextauth_title": "NextAuth",
+      "nextauth_desc": "عزّز تطبيقك بمصادقة آمنة وسلسة لتجربة تسجيل دخول سهلة."
+    },
+    "sponsor": {
+      "title": "محبوب من رعاتنا",
+      "donate": "اشترِ لنا قهوة، علامتك التجارية هنا"
+    },
+    "video": {
+      "first_text": "شاهد مقطع فيديو، ثم",
+      "second_text1": "ابنِ تطبيقك في ",
+      "second_text2": "",
+      "time_text": "ساعة واحدة"
+    },
+    "people_comment": {
+      "title": "ماذا يقول الناس",
+      "desc": "لا تأخذ كلامنا فحسب. إليك ما يقوله الأشخاص الحقيقيون عن AI-Rank."
+    }
+  },
+  "login": {
+    "back": "رجوع",
+    "welcome_back": "مرحباً بعودتك",
+    "signin_title": "أدخل بريدك الإلكتروني لتسجيل الدخول",
+    "singup_title": "ليس لديك حساب؟ سجّل الآن.",
+    "signin_email": "تسجيل الدخول بالبريد الإلكتروني",
+    "signin_others": "أو تابع مع",
+    "signup": "إنشاء حساب",
+    "privacy": "سيتم تخزين بريدك الإلكتروني وصورة ملفك الشخصي فقط.",
+    "signup_github": "التسجيل بـ GitHub",
+    "": ""
+  },
+  "common": {
+    "copyright": "حقوق النشر © ${currentYear} Nextify Limited. جميع الحقوق محفوظة.",
+    "dashboard": {
+      "main_nav_documentation": "التوثيق",
+      "main_nav_support": "الدعم",
+      "sidebar_nav_clusters": "المجموعات",
+      "sidebar_nav_billing": "الفوترة",
+      "sidebar_nav_settings": "الإعدادات",
+      "title_text": "إنشاء وإدارة المجموعات."
+    },
+    "": ""
+  },
+  "business": {
+    "k8s": {
+      "new_cluster": "مجموعة جديدة",
+      "no_cluster_title": "لا توجد مجموعات",
+      "no_cluster_content": "ليس لديك أي مجموعات بعد. ابدأ بإنشاء مجموعة.",
+      "": ""
+    },
+    "billing": {
+      "billing": "الفوترة",
+      "content": "إدارة اشتراكك وتفاصيل الفوترة",
+      "noSubscription": "أنت غير مشترك في أي خطة.",
+      "subscriptionInfo": "أنت حالياً على خطة <strong>{plan}</strong>. سيتجدد اشتراكك في <strong>{date}</strong>.",
+      "manage_subscription": "إدارة الاشتراك",
+      "upgrade": "ترقية",
+      "": ""
+    }
+  },
+  "dropdown": {
+    "dashboard": "لوحة التحكم",
+    "billing": "الفوترة",
+    "settings": "الإعدادات",
+    "sign_out": "تسجيل الخروج",
+    "": ""
+  }
+}
